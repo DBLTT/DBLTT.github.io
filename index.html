@@ -1,39 +1,19 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Türöffnung mit QR-Code</title>
-		<link type="text/css" rel="stylesheet" href="styles.css"/>
-		<meta charset="utf-8"/>
-	</head>
-	<body>
-	  <form>
-Vorname:  <input type="text" name="vorname" /><br />
-Nachname: <input type="text" name="nachname" /><br />
-Geburtstag: <input type="text" name="Geburtstag"/><br />
-Strasse und Hausnummer:  <input type="text" name="Strasse und Hausnummer"/><br />
-Wohnort: <input type="text" name="Ort"/><br />
-E-Mail: <input type="text" name="E-Mail"/><br />
-
-<input type="submit" value="Abschicken!" />
+<head>
+  <title>Formular</title>
+  
+</head>
+<body>
+<form action="vorname.php" method="get">
+  Vorname:<br /><input type="text" name="vorname"/><br />
+Nachname: <br /><input type="text" name="nachname" /><br />
+Geburtsdatum: <br /><input type="text" name="Geburtstag"/><br />
+Strasse und Hausnummer:  <br /><input type="text" name="Strasse und Hausnummer"/><br />
+Wohnort: <br /><input type="text" name="Ort"/><br />
+E-Mail: <br /><input type="text" name="E-Mail"/><br />
+<input type="submit" value="Senden"
 </form>
-	  <header>
-	    
-	  </header>
-	  <main>
-	    
-	    <p><h1>Semesterarbeit</h1></p>
-	    
-	    <p>
-	   QR-Code & Hash-Code generieren für Türöffnung
-	    </p>
-      <iframe src="https://qrickit.com/qrickit_apps/100_qrickit_widget_home.php" align="center" width="250" height="490" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"></iframe>
-      
-	  </main>
-	  <footer>
-	    
-	  </footer>
-	</body>
-
+</body>
 </html>
-
 
